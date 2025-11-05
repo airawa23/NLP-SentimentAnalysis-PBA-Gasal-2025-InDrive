@@ -1,5 +1,10 @@
 # 💡 NLP-SentimentAnalysis-PBA-Gasal-2025-InDrive
 
+- **Author**: Airlangga Bayu Taqwa (NRP: 5026221204)
+- **Kelas**: PBA A Gasal 2025
+- **Dosen Pengampu**: Irmasari Hafidz, S.Kom., M.Sc.
+
+## *`Overview`*
 Proyek ini bertujuan untuk membangun dan mengevaluasi model **klasifikasi sentimen** guna mengidentifikasi pandangan (**positif**, **negatif**, atau **netral**) pengguna terhadap layanan dan fitur yang disediakan oleh **Aplikasi Transportasi InDrive**, berdasarkan ulasan yang dikumpulkan dari platform Google Play Store.
 
 ---
