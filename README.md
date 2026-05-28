@@ -19,6 +19,39 @@ Tujuan utama dari proyek ini adalah:
 
 ---
 
+## 📊 Exploratory Data Analysis (EDA) & Dataset
+
+Sebelum masuk ke tahap pemodelan, ulasan yang telah dikumpulkan dianalisis terlebih dahulu untuk melihat karakteristik kata dan distribusi sentimennya.
+
+### 1. Sampel Dataset (Setelah NLP Preprocessing)
+Berikut adalah cuplikan perbandingan data ulasan sebelum dan sesudah melewati proses pembersihan (*cleaning*, normalisasi, dan *stemming*):
+
+| Ulasan Asli | Teks Hasil Preprocessing | Label Sentimen |
+| :--- | :--- | :---: |
+| apk yg sangat baguss dan bisa pilih indrive | apk yang sangat bagus dan bisa pilih indrive | Positif |
+| saldo driver msh ada tau2 suruh daftar ulang | saldo driver masih ada tau suruh daftar ulang | Negatif |
+
+### 2. Top 20 Most Common Words
+Grafik di bawah ini menunjukkan 20 kata baku yang paling sering muncul di seluruh ulasan pengguna InDrive setelah proses *Stopword Removal*:
+
+<img width="1189" height="590" alt="top 20 the most common words in a text column" src="https://github.com/user-attachments/assets/3c6170d0-cab0-46af-8d0b-8d743b0c426a" />
+
+### 3. Word Cloud Sentimen Positif vs Negatif
+Visualisasi kata yang paling dominan muncul berdasarkan pembagian kategori sentimen pengguna:
+
+<table table-layout="fixed" width="100%">
+  <tr>
+    <td align="center" width="50%"><b>🟢 Word Cloud Sentimen Positif</b></td>
+    <td align="center" width="50%"><b>🔴 Word Cloud Sentimen Negatif</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c281e499-a4b0-47da-83f4-9f2474406af6"<img width="794" height="429" alt="negative_reviews" alt="Positive Reviews" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/53b58db4-2f2a-426e-9eeb-e27d4e389919" alt="Negative Reviews" width="100%"></td>
+  </tr>
+</table>
+
+---
+
 ## ⚙️ Metodologi & Algoritma
 
 Proyek ini menggunakan alur kerja Natural Language Processing (NLP) standar, yang mencakup:
