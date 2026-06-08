@@ -89,12 +89,12 @@ Beberapa algoritma *Machine Learning* dibandingkan:
 
 | Algoritma | Accuracy (Test Set) | F1-Score (Cross-Validation) | Keterangan |
 | :--- | :---: | :---: | :--- |
-| **Extra Trees** | 0.81 | **0.8216** | Kinerja paling seimbang (F1-Score tertinggi). |
-| Random Forest | 0.80 | 0.8177 | |
-| SVM (Linear) | 0.79 | 0.8277 | |
-| Logistic Regression | 0.76 | 0.8177 | |
-| Naive Bayes | 0.74 | 0.8323 | |
-| K-Nearest Neighbor | 0.62 | 0.7625 | |
+| **Extra Trees** | 0.81 | **0.8463** | Kinerja paling seimbang (F1-Score tertinggi). |
+| Random Forest | 0.79 | 0.8411 | |
+| SVM (Linear) | 0.78 | 0.8310 | |
+| Logistic Regression | 0.78 | 0.8331 | |
+| Naive Bayes | 0.78 | 0.8368 | |
+| K-Nearest Neighbor | 0.61 | 0.7616 | |
 
 **Kesimpulan:** Model **Extra Trees Classifier** menunjukkan kinerja paling seimbang dan stabil.
 
